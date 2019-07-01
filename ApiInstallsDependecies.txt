@@ -1,0 +1,47 @@
+nodejs.org
+instalar nodejs
+escolher um diretorio
+T - npm init -y (criara o package.json/visao das dependecias)
+=====================================================================================================
+instalando dependencias
+T - npm install express
+micro framework que ajuda a lidar com rotas e views
+=====================================================================================================
+instalar nodemon
+T - npm install -D nodemon (dependencia de desenvolvedor)
+realiza automaticamente a reinicializacao do servidor quando algo e alterado no codigo.
+=====================================================================================================
+Instalar docker
+I - www.docker.com
+realizar a conternizacao de softwares ou aplicacoes na maquina
+T - docker pull mongo (instalar mongo em um container)
+T - docker run --name mongodb -p 27017:27017 -d mongo
+T - docker ps
+goto navegador digite localhost:27017
+aparecerá "it looks like you are trying to acess MongoDB over HTTP on the native driver port."
+=====================================================================================================
+instalar o software robo 3T para ver os schemas do MongoDB
+I - robomongo.org
+direcionar a porta 27017
+=====================================================================================================
+instalar mongoose 9dependecia de producao
+T - npm install mongoose
+ORM de bancos nao relacionais
+object related maping (transformar tabelas em objetos para o JS)
+=====================================================================================================
+instalar require-dir
+T - npm install require-dir
+nao preccisar fazer require em cada modo
+=====================================================================================================
+Instalar insomnia
+I - insonia.rest
+testar endpoints da API
+=====================================================================================================
+Instalar mongoose-paginate
+T - npm mongoose paginate
+adicionar paginacao para os dados
+=====================================================================================================
+Instalar cors
+npm install cors
+permitir outros acessarem nossa api
+=====================================================================================================
